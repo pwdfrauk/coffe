@@ -15,6 +15,16 @@ body {
 h1, h2 {
 	font-family: 'Cormorant Garamond', serif;
 }
+a:hover {
+	text-decoration:none;
+}
+/* -=-=-=-=-=-=-=- menu icon for responsive -=-=-=-=-=-=-=-=-=*/
+.menu-icon {
+	color:white;
+	font-size:25px;
+	padding-left:10px; 
+	display: none;
+}
 /*-=-=-=-=-=-=-=-=-=-  header section  -=-=-=-=-=-==-*/
 .header-area {
 	background-image: url('images/headerbg.jpg');
@@ -50,10 +60,13 @@ h1, h2 {
 	padding-right: 25px;
  }
 .header-area .logo a {}
-.header-area .logo a img{
-	width: 125px;
+.header-area .logo a img {
+    width: 125px;
     height: 35px;
- }
+    background: #0501027d;
+    border-radius: 5px;
+    padding: 5px;
+}
 .header-heading h1,
 .dark-coffe-content h2,
 .cold-coffe-content h2 {
@@ -336,6 +349,7 @@ padding: 30px 0px;
 .br-text p {
 	color:#fff;
 	padding: 20px;
+	text-align: justify;
 }
 /*-=-==-==-==-=-=-=-=-=- about footer section -=-=-=-=-=-=-=-=-=*/
 .about-footer-section {
